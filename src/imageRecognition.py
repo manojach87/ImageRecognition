@@ -20,7 +20,7 @@ assert subscription_key
 vision_base_url = "https://westcentralus.api.cognitive.microsoft.com/vision/v2.0/"
 
 analyze_url = vision_base_url + "analyze"
-image_path = "images/DoginCar.jpg"
+image_path = "../images/DoginCar.jpg"
 
 image_data = open(image_path, "rb").read()
 headers    = {'Ocp-Apim-Subscription-Key': subscription_key,
